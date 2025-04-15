@@ -1,0 +1,52 @@
+.game-score-container {
+  background-color: #2c3e50;
+  padding: 2rem;
+  border-radius: 12px;
+  color: white;
+  margin-top: 2rem;
+}
+
+.score-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.score-value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f1c40f;
+}
+
+.score-label {
+  font-size: 1.2rem;
+  color: #ecf0f1;
+  margin-top: 0.5rem;
+}
+
+.score-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.score-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.score-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.score-button:active {
+  transform: translateY(0);
+}
