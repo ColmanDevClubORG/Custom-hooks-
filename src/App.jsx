@@ -1,9 +1,12 @@
-import { useCounter } from './hooks/useCounter';
+import { useState } from 'react';
 import GameScore from './components/GameScore';
 import './App.css';
 
 function App() {
-  const { count, increment, decrement, reset } = useCounter(0);
+  const [count, setCount] = useState(0);
+  const increment = () => setCount((prev) => prev + 1);
+  const decrement = () => setCount((prev) => prev - 1);
+  const reset = () => setCount(0);
 
   return (
     <div className='app-container'>
