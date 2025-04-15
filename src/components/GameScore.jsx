@@ -6,10 +6,10 @@ const GameScore = () => {
 
   return (
     <div className='game-score-container'>
-      <h2>Game Score</h2>
+      <h2 className='game-score-title'>How old am i</h2>
       <div className='score-display'>
         <span className='score-value'>{count}</span>
-        <span className='score-label'>Points</span>
+        <span className='score-label'>Change my age and get some point</span>
       </div>
       <div className='score-controls'>
         <button onClick={decrement} className='score-button'>

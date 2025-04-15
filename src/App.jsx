@@ -7,10 +7,10 @@ function App() {
 
   return (
     <div className='app-container'>
-      <h1>Custom Hooks Demo</h1>
->
+      <h1 className='app-title'>Custom Hooks Demo</h1>
+
       <div className='counter-container'>
-        <h2>Basic Counter</h2>
+        <h2>How many bananas are on my island?</h2>
         <div className='counter-value'>{count}</div>
         <div className='button-group'>
           <button onClick={decrement} className='counter-button'>
